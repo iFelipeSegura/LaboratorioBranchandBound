@@ -1,0 +1,240 @@
+[
+  {
+    "id": 0,
+    "parent_id": null,
+    "path_str": "A",
+    "cost": 21,
+    "status": "expanded",
+    "level": 0,
+    "children": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 1,
+    "parent_id": 0,
+    "path_str": "A → B",
+    "cost": 29,
+    "status": "expanded",
+    "level": 1,
+    "children": [
+      8,
+      9,
+      10
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 2,
+    "parent_id": 0,
+    "path_str": "A → C",
+    "cost": 27,
+    "status": "expanded",
+    "level": 1,
+    "children": [
+      5,
+      6,
+      7
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 3,
+    "parent_id": 0,
+    "path_str": "A → D",
+    "cost": 29,
+    "status": "expanded",
+    "level": 1,
+    "children": [
+      11,
+      12,
+      13
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 4,
+    "parent_id": 0,
+    "path_str": "A → E",
+    "cost": 40,
+    "status": "pruned_cost",
+    "level": 1,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 5,
+    "parent_id": 2,
+    "path_str": "A → C → B",
+    "cost": 30,
+    "status": "expanded",
+    "level": 2,
+    "children": [
+      16,
+      17
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 6,
+    "parent_id": 2,
+    "path_str": "A → C → D",
+    "cost": 46,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 7,
+    "parent_id": 2,
+    "path_str": "A → C → E",
+    "cost": 30,
+    "status": "expanded",
+    "level": 2,
+    "children": [
+      18,
+      19
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 8,
+    "parent_id": 1,
+    "path_str": "A → B → C",
+    "cost": 37,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 9,
+    "parent_id": 1,
+    "path_str": "A → B → D",
+    "cost": 32,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 10,
+    "parent_id": 1,
+    "path_str": "A → B → E",
+    "cost": 44,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 11,
+    "parent_id": 3,
+    "path_str": "A → D → B",
+    "cost": 32,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 12,
+    "parent_id": 3,
+    "path_str": "A → D → C",
+    "cost": 53,
+    "status": "pruned_cost",
+    "level": 2,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 13,
+    "parent_id": 3,
+    "path_str": "A → D → E",
+    "cost": 29,
+    "status": "expanded",
+    "level": 2,
+    "children": [
+      14,
+      15
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 14,
+    "parent_id": 13,
+    "path_str": "A → D → E → B",
+    "cost": 33,
+    "status": "pruned_cost",
+    "level": 3,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 15,
+    "parent_id": 13,
+    "path_str": "A → D → E → C",
+    "cost": 35,
+    "status": "pruned_cost",
+    "level": 3,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 16,
+    "parent_id": 5,
+    "path_str": "A → C → B → D",
+    "cost": 37,
+    "status": "pruned_cost",
+    "level": 3,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 17,
+    "parent_id": 5,
+    "path_str": "A → C → B → E",
+    "cost": 34,
+    "status": "pruned_cost",
+    "level": 3,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 18,
+    "parent_id": 7,
+    "path_str": "A → C → E → B",
+    "cost": 36,
+    "status": "pruned_cost",
+    "level": 3,
+    "children": [],
+    "final_cost": null
+  },
+  {
+    "id": 19,
+    "parent_id": 7,
+    "path_str": "A → C → E → D",
+    "cost": 30,
+    "status": "expanded",
+    "level": 3,
+    "children": [
+      20
+    ],
+    "final_cost": null
+  },
+  {
+    "id": 20,
+    "parent_id": 19,
+    "path_str": "A → C → E → D → B",
+    "cost": 30,
+    "status": "solution",
+    "level": 4,
+    "children": [],
+    "final_cost": 30
+  }
+]
