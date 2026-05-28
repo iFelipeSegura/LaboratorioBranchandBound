@@ -153,12 +153,4 @@ El cambio en C→E de 3 a 99 reduce la cota raíz de 21 a 20 porque la fila C ya
 
 ---
 
-## Archivos entregables
 
-| Archivo | Descripción |
-|---------|-------------|
-| `bb_tsp.py` | Código fuente Python del algoritmo B&B con instrumentación |
-| `lifo_tree.json` | Árbol LIFO completo (30 nodos) |
-| `bestfirst_tree.json` | Árbol Best-First (21 nodos) |
-| `naive_tree.json` | Árbol con cota ingenua (29 nodos) |
-| `modified_tree.json` | Árbol con C→E=99 (21 nodos) |
